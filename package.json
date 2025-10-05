@@ -7,8 +7,8 @@
   "scripts": {
     "dev": "vite",
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "deploy": "gh-pages -d build",
+    "build": "vite buildnp",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeplay": "npm run build"
