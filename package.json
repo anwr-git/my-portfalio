@@ -1,6 +1,6 @@
 {
   "name": "my-portfalio",
-  "homepage": "https://anwr-git.github.io/my-portfalio",
+  "homepage": "https://anwr-git.github.io/my-portfalio/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,10 +8,10 @@
     "dev": "vite",
     "start": "react-scripts start",
     "build": "vite buildnp",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeplay": "npm run build"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
