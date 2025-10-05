@@ -1,7 +1,6 @@
 {
   "name": "my-portfalio",
   "homepage": "https://anwr-git.github.io/my-portfalio/",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
